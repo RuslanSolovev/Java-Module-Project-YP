@@ -14,7 +14,7 @@ public class Main {
             int speed;
             // Проверка на корректный ввод скорости
             while (true) {
-                System.out.println("Введите скорость автомобиля " + i + " (от 0 до 250):");
+                System.out.println("Введите скорость автомобиля! " + i + " (от 0 до 250):");
                 speed = scanner.nextInt();
                 if (speed > 0 && speed <= 250) {
                     break;
